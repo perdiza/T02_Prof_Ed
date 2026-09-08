@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T02: Proposta - Prof Ed</title>
+</head>
+<body>
+
+<h5><a href="index.html">[Voltar para Entrega do Exercício]</a></h5>
+
+<h1>Projeto do Zero: Aulas 1 a 5</h1>
+<p>
+<strong>Hoje é aula sem explicação falada — sigam o passo a passo sozinhos.</strong>
+ Tudo que vocês precisam pra fazer sozinhos está escrito abaixo.
+<br>
+Esqueçam o portfólio por hoje. Vocês vão criar uma página nova, do zero, sobre um assunto à sua escolha, 
+- aplicando tudo que já vimos.
+</p>
+<br>
+    <h2>O que já vimos (resumo, pra quem esqueceu):</h2>
+    <p>
+<ul>
+    <li><strong>Aula 2</strong> — como a web funciona: o navegador pede a página, o servidor responde.</li>
+    <li><strong>Aula 3</strong> — estrutura de um documento HTML: <b>&#60!DOCTYPE html></b>, <b>&#60html></b>, 
+        <b>&#60head></b>, <b>&#60body></b>.</li>
+    <li><strong>Aula 4</strong> — tags de texto: <b>&#60h1>/&#60h2></b> (títulos), <b>&#60p></b> (parágrafo),
+         <b>&#60ul>/&#60ol>/&#60li></b> (listas), <b>&#60a href="..."></b> (link).</li>
+    <li><strong>Aula 5</strong> — imagens e organização: <b>&#60img src="..." alt="..."></b> e
+         <b>&#60div></b> pra agrupar conteúdo relacionado.</li>
+</ul>
+</p>
+<br>
+
+<h2>Etapa 1 — Escolha um tema</h2>
+<p>
+Crie uma página sobre <strong>qualquer assunto que você goste.</strong> Se não tiver ideia, escolha um destes:
+<br>
+<ul>
+<li>Uma banda, artista ou música favorita;</li>
+<li>Um jogo ou filme favorito;</li>
+<li>Uma receita de comida;</li>
+<li>Um lugar que você quer visitar;</li>
+<li>Um animal específico;</li>
+<li>Um hobby ou esporte que você pratica.</li>
+</ul>
+</p>
+<br>
+
+<h2>Etapa 2 — Criar o projeto</h2>
+<p>
+<ol>
+<li>Crie uma pasta nova (separada do portfólio), com um nome relacionado ao tema — por exemplo <b>pagina-jogo-favorito</b>.</li>
+<li>Dentro dela, crie um arquivo <b>index.html</b>.</li>
+<li>Dentro dela também, crie uma pasta <b>images</b> (tudo minúsculo, sem espaço) — é ali que vão ficar as imagens da página.</li>
+</ol>
+</p>
+<br>
+
+<h2>Etapa 3 — Estrutura base</h2>
+<p>
+Comece o <b>index.html</b> com o esqueleto que já vimos na aula 3:
+<br>
+<em>
+<br>&#60!DOCTYPE html> 
+<br>&#60html lang="pt-br">
+<br>
+<br> &emsp;   &#60head>   
+<br> &emsp; &emsp;  &#60meta charset="UTF-8">    
+<br> &emsp; &emsp;  &#60title> Escreva aqui o título da página &#60/title> 
+<br> &emsp;   &#60/head>
+<br>
+<br>&emsp;  &#60body>
+    <br> &emsp;     &#60!-- o conteúdo da página vai aqui dentro --> 
+<br>&emsp;  &#60/body> 
+<br>
+<br>&#60/html>
+</em>
+</p>
+<br>
+
+<h2>Etapa 4 — Checklist de elementos obrigatórios</h2>
+<p>
+Sua página precisa ter todos os itens abaixo. Marque conforme for adicionando:
+<br>
+<ul>
+<li>[ ] Um &#60h1> com o nome do tema escolhido;</li>
+<li>[ ] Pelo menos dois &#60h2> (por exemplo: "Sobre", "Por que eu gosto", "Curiosidades");</li>
+<li>[ ] Pelo menos dois &#60p> com textos escritos por você (sem copiar e colar de sites);</li>
+<li>[ ] Uma lista — &#60ul> ou &#60ol>, o que fizer mais sentido pro seu tema;</li>
+<li>[ ] Pelo menos um link &#60a href="..." target="_blank"> pra uma página relacionada ao tema;</li>
+<li>[ ] Pelo menos uma imagem &#60img src="images/..." alt="...">, com alt descrevendo de verdade o que aparece nela;</li>
+<li>[ ] Pelo menos um &#60div> agrupando um bloco de conteúdo (título + imagem + texto, por exemplo).</li>
+</ul>
+<br>
+<p>
+<h3>Exemplo de bloco com &#60div> (pra se inspirar, não pra copiar o conteúdo)</h3>
+
+<div>
+<br><b>&#60div></b>
+<br>&#60h2>Curiosidade&#60/h2>     
+<br>&#60img src="images/imagem1.jpg" alt="Descreva aqui o que está na imagem" width="400" height="250">    
+<br>Escreva aqui uma curiosidade sobre o seu tema.
+<br><b>&#60/div></b>
+</div>
+</p>
+<br>
+
+<h2>Etapa 5 — Testar no navegador</h2>
+<p>
+<ol>
+<li>Salve o index.html (Ctrl+S).</li>
+<li>Abra o arquivo no navegador (duplo clique nele, ou "Open with Live Server" se tiver a extensão).</li>
+<li>Confira se todos os itens da checklist da Etapa 4 realmente aparecem na página.</li>
+</ol>
+</p>
+<br>
+
+<h3>Se alguma imagem não aparecer (resolva sozinho antes de chamar o professor)</h3>
+<p>
+<table>
+  <tr>
+    <th>Sintoma</th>
+    <th>Causa</th>
+  </tr>
+   <tr>
+    <td>Ícone de imagem quebrada</td>
+    <td>Nome do arquivo no src não é exatamente igual ao nome do arquivo na pasta (maiúscula/minúscula importa)</td>
+  </tr>
+  <tr>
+    <td>Página em branco / nada mudou</td>
+    <td>Esqueceu de salvar o index.html, ou salvou mas não atualizou a aba do navegador (F5)</td>
+  </tr>
+    <tr>
+    <td>Imagem aparece gigante ou minúscula</td>
+    <td>Conferir se width e height fazem sentido pro tamanho real da imagem</td>
+    </tr>
+</table>   
+</p>
+<br>
+
+<h2>Terminou antes do tempo? (desafio extra)</h2>
+<p>
+Adicione um segundo <b>&#60div></b> com outro bloco de conteúdo sobre o mesmo tema (outra curiosidade, outra imagem).
+</p>
+<br>
+<br>
+<i>=Fim da Proposta=</i>
+<br>
+<br>
+<h5><a href="index.html">[Voltar para Entrega do Exercício]</a></h5>
+
+
+</body>
+</html>
